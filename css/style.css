@@ -1,0 +1,337 @@
+/* General Styles */
+body {
+    background-color: #0B5351;
+    margin: 0px; padding: 0px;
+    text-decoration: none;
+}
+
+/* Nav Styles */
+nav {
+    background-color: #00A9A5;
+    display: flex; 
+    align-items: center; justify-content: space-between;
+    padding-left: 5em; padding-right: 5em; 
+    padding-bottom: 0.4em; padding-top: 0.4em;
+}
+
+.nav_p {
+    text-decoration: none;
+    font-family: "Oswald", serif; 
+    font-size: 1.4em; font-weight: 900;
+    color: #FFFFFF;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: "Oswald", serif; 
+    font-size: 1.4em; font-weight: 900;
+    color: #FFFFFF;
+}
+
+nav a:hover {
+    background-color: #222222;
+    display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 0.25em;
+  margin: -0.25em;
+}
+
+/* Footer Styles */
+footer {
+    background-color:#092327;
+    display: flex; align-items: center; justify-content: center;
+    column-gap: 1.5em;
+    padding-bottom: 2em;
+}
+
+footer p {
+    text-decoration: none;
+    font-family: "Oswald", serif; 
+    font-size: 1.4em; font-weight: 900;
+    letter-spacing: 2px;
+    color: #90C2E7;
+}
+footer a {
+    text-decoration: none;
+    font-family: "Oswald", serif; 
+    font-size: 1.4em; font-weight: 900;
+    letter-spacing: 2px;
+    color: #90C2E7;
+}
+
+footer a:hover {
+    background-color: #00A9A5;
+    display: inline-block;
+  position: relative;
+  z-index: 1;
+  padding: 0.25em;
+  margin: -0.25em;
+  border-radius: 25%;
+}
+
+/* Splash Section */
+.splash {
+    border: solid, 5px, #00A699;
+    margin: 1.0em;
+    padding: 1.5em;
+    background-color: #092327;
+}
+
+.splash h1 {
+    color: #FFFFFF;
+    font-family: "Oswald", serif;
+    font-size: 2.5em;
+}
+
+.splash p{
+    font-family: "Oswald", serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.splash img {
+    width: 150px; height: 150px;
+    border: solid, 2px, #FFFFFF;
+}
+
+/* Horizontal Rules */
+hr {
+    margin:0em;
+    border: 2px solid #092327;
+}
+
+/* Sections */
+section {
+    border: solid, 5px, #00A699;
+    margin: 1.0em;
+    padding: 1.5em;
+    background-color: #092327;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Oswald", serif;
+    color: #FFFFFF;
+    font-size: 2.0em;
+}
+
+section h3 {
+    font-family: "Oswald", serif;
+    color: #FFFFFF;
+    font-size: 1.25em;
+    margin-bottom: 0em;
+} /* project header */
+
+/* Paragraph Styles */
+section p {
+    font-family: "Source Sans 3", serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    margin-left: 0.5em;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+    font-family: "Oswald", serif;  
+    color: #FFFFFF;
+}
+section a:hover {
+    text-decoration-color: #00A699;
+    color: #00A699;
+}
+
+/* section tabs styles*/
+
+.skills-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3.0em;
+}
+
+.skills-tab li {
+    display: grid; 
+    align-items: center;
+    justify-items: center;
+    background-color: #092327;
+    border: solid, 2px, #00A9A5;
+    border-radius: 2.0em;
+}
+
+.milestones-tab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.milestones-tab dd {
+    display: grid; 
+    align-items: center;
+    justify-items: right;
+    padding: 0.5em;
+}
+
+.milestones-tab dt {
+    display: grid; 
+    align-items: center;
+    justify-items: left;
+    padding: 0.5em;
+}
+
+/* List Styles */
+ul {
+    list-style: square;
+    font-family: "Source Sans 3", serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+}
+
+dl {
+    font-family: "Source Sans 3", serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+}
+
+dl dt{
+    font-family: "Source Sans 3", serif;
+    color: #FFFFFF;
+}
+
+dl dd{
+    font-family: "Source Sans 3", serif;
+    color: #FFFFFF;
+}
+
+/* Project Section */
+.three-col {
+    margin-top: 0.9em; margin-bottom: 0.9em;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 0.7em;
+    margin-left: 0.3em; margin-right: 0.3em;
+}
+
+.card {
+    justify-items: center;
+    padding-bottom: 1.5em; padding-top: 1.5em;
+    box-shadow: 0 2px 2px 0 #FFFFFF, 0 0px 5px 0 #FFFFFF;
+    /*border: solid, red;*/
+    background-color: #092327;
+}
+
+.card img {
+    width: 20em;
+    height: 20em;
+    /*border: solid, red; */
+}
+
+#img_0001 {
+    filter: invert(1);
+}
+
+.card h3 {
+    color: #FFFFFF;
+    font-size: 1.5em;
+    font-family: "Oswald", serif;
+    margin-left: 0em;
+}
+
+/* Contact Page Styles */
+.one-col {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    width: 75%; 
+}
+
+.form-container {
+    justify-items: center;
+    padding: 5em;
+}
+
+form {
+    text-decoration: none;
+    font-family: "Oswald", serif; 
+    font-size: 1.25em;
+    color: #092327;        
+}
+
+form input , form textarea{
+    text-decoration: none;
+   
+    color: #4E8098;
+    background-color: #092327;
+    width: 20em;
+    font: normal 0.70em verdana;
+    line-height: 25px;
+    padding: 2px 10px;
+    border: solid 1px #ddd;
+}
+
+form textarea {
+    
+    width: 28em;
+    height: 25em;
+    font: normal 0.70em verdana;
+    line-height: 25px;
+    padding: 2px 10px;
+    border: solid 1px #ddd;
+}
+
+form input:focus, form textarea:focus {}
+
+form button {
+    background-color: #000000;
+    border: solid, 2px, #FFFFFF;
+    border-radius: 2em;
+    padding: 1.25em 2.5em;
+    color: #FFFFFF;
+}
+
+form button:hover {
+    background-color: #00A699;
+    border: solid, 2px, #FFFFFF;
+    border-radius: 2em;
+    padding: 1.25em 2.5em;
+    color: #FFFFFF;
+}
+
+/* thank you page styling */
+.page-thanks {
+    background-color: #00A9A5;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    justify-self: center;
+}
+
+.page-thanks h1 {
+    color: #FFFFFF;
+    font-family: "Oswald", serif;
+    font-size: 2.5em;
+}
+
+.page-thanks p {
+    font-family: "Source Sans 3", serif;
+    font-size: 1.25em;
+    color: #FFFFFF;
+    margin-left: 0.5em;
+}
+
+.page-thanks a {
+    text-decoration: none;
+    font-family: "Oswald", serif;  
+    color: #092327;
+}
+.page-thanks a:hover {
+    text-decoration-color: #00A699;
+    color: #90C2E7;
+}
+
+
+
